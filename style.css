@@ -1,0 +1,109 @@
+body {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 13px #b3b3b3,
+             -5px -5px 13px #ffffff;
+    height: 70vh;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table td {
+    padding: 10px;
+}
+
+input {
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 15px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+
+.hasil {
+    /* margin: 10px; */
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 13px #b3b3b3,
+                inset -5px -5px 13px #ffffff;
+}
+
+.wrap-hasil {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 17px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 13px #b3b3b3,
+             -5px -5px 13px #ffffff;
+}
